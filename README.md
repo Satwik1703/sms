@@ -1,10 +1,16 @@
 # SMS
-Architecture Assignment 4
-A microservice designed mimic the facilities of SMS
-Built using
+
+ Architecture Assignment-4
+
+ A microservice designed mimic the facilities of SMS
+
+ Built using
 	- Node
 	- Express
 	- MongoDB
+
+## Heroku link
+[Heroku link](https://satwik-sms.herokuapp.com/)
 
 ## Instructions to setup
 ```bash
@@ -14,7 +20,7 @@ $ cd sms
 
 $ npm install
 ```
-##Running the code
+## Running the code
 ```bash
 $ node server.js
 ```
@@ -23,3 +29,6 @@ $ node server.js
 ```bash
 $ npm run test
 ```
+
+### Note
+The token secret is set as '0000'. You can change it in the .env file.
